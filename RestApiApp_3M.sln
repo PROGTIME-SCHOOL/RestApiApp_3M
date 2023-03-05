@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33402.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiApp_Comic", "RestApiApp_Comic\RestApiApp_Comic.csproj", "{61EA802C-59A1-4C72-96DD-7D4E9E307DD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiApp_Sun", "RestApiApp_Sun\RestApiApp_Sun.csproj", "{99427805-C994-4633-902D-5A2B441C899B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{61EA802C-59A1-4C72-96DD-7D4E9E307DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61EA802C-59A1-4C72-96DD-7D4E9E307DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61EA802C-59A1-4C72-96DD-7D4E9E307DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99427805-C994-4633-902D-5A2B441C899B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99427805-C994-4633-902D-5A2B441C899B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99427805-C994-4633-902D-5A2B441C899B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99427805-C994-4633-902D-5A2B441C899B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
