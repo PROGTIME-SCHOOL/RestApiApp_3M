@@ -17,6 +17,7 @@
         <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Label Name="lblSunrise" Content="Info Sunrise: "/>
             <Label Name="lblSunset" Content="Info Sunset: "/>
+            <Label Name="lblStatus" Content="Status"/>
         </StackPanel>
         
     </Grid>

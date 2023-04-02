@@ -26,12 +26,16 @@ namespace RestApiApp_Sun
             InitializeComponent();
         }
 
+        // 18:03
+
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
             SunResultModel model = await LoadSunInfo();
 
             lblSunrise.Content = "Info Sunrise: " + model.Results.Sunrise.ToLocalTime();
             lblSunset.Content = "Info Sunset: " + model.Results.Sunset.ToLocalTime();
+
+            lblStatus.Content = "Status: " + model.Status;
         }
 
         private async Task<SunResultModel> LoadSunInfo()
